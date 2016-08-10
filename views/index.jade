@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  form(action='/result', method='get')
+    .urlHeader URL
+    br
+    input.mainText(type='url', name='url', placeholder='Enter the url of the news article')
+    br
+    input.submit(type='submit', value='Submit')

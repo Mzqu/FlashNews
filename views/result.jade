@@ -1,0 +1,35 @@
+extends layout
+
+block content
+  .response
+    .table
+        .row.header
+          .cell
+            | Title
+          .cell
+            | #{body.title}
+        .row
+          .cell
+            | Who
+          .cell
+            | #{body.who}
+        .row
+          .cell
+            | What
+          .cell
+            | #{body.what}
+        .row
+          .cell
+            | Where
+          .cell
+            | #{body.where}
+        .row
+          .cell
+            | When
+          .cell
+            | #{body.when}
+        .row
+          .cell
+            | Summary
+          .cell
+            | #{body.summary}
